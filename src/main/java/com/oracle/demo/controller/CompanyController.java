@@ -1,12 +1,12 @@
-package com.mssql.demo.controller;
+package com.oracle.demo.controller;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import com.mssql.demo.entity.Company;
-import com.mssql.demo.exception.ResourceNotFoundException;
-import com.mssql.demo.repository.CompanyRepository;
+import com.oracle.demo.entity.Company;
+import com.oracle.demo.exception.ResourceNotFoundException;
+import com.oracle.demo.repository.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
